@@ -14,10 +14,10 @@ jobs:
         with:
           python-version: "3.11"
       - name: Send daily AI news
-env:
-  PUSH_PROVIDER: ${{ secrets.PUSH_PROVIDER }}
-  PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
-  WXPUSHER_APP_TOKEN: ${{ secrets.WXPUSHER_APP_TOKEN }}
-  WXPUSHER_UIDS: ${{ secrets.WXPUSHER_UIDS }}
-  NEWS_LIMIT: "10"
+        env:
+          PUSH_PROVIDER: ${{ secrets.PUSH_PROVIDER }}
+          PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
+          WXPUSHER_APP_TOKEN: ${{ secrets.WXPUSHER_APP_TOKEN }}
+          WXPUSHER_UIDS: ${{ secrets.WXPUSHER_UIDS }}
+          NEWS_LIMIT: "10"
         run: python news_push.py

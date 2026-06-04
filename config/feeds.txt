@@ -1,0 +1,9 @@
+# One feed URL per line. Lines beginning with # are ignored.
+https://openai.com/news/rss.xml
+https://blogs.nvidia.com/feed/
+https://www.microsoft.com/en-us/research/feed/
+https://venturebeat.com/category/ai/feed/
+https://www.theverge.com/rss/ai-artificial-intelligence/index.xml
+https://techcrunch.com/tag/artificial-intelligence/feed/
+https://36kr.com/feed
+https://dreyx.com/digest/rss
